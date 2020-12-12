@@ -5,7 +5,7 @@ const appController = require('../controller/appController');
 module.exports = function() {
 
     routes.get("/", appController.index);
-    routes.get("/contacto", appController.email);
+    routes.get("/email", appController.email);
 
     return routes;
 }
