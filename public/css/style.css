@@ -294,7 +294,7 @@ nav{
     font-family: calirbi;
     display: block;
     display: -webkit-box;
-    max-width: 80%;
+    max-width: 90%;
     -webkit-line-break: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -745,8 +745,6 @@ width: 100%;
 	#contact-form form h1{
 		margin:5px 0px;
 	}
-	
-	
 }
 
 @media(max-width:600px){
