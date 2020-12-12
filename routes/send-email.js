@@ -36,7 +36,7 @@ router.post('/email', async(req, res) => {
     });
 
     console.log('Mensaje enviado', info.messageId);
-    res.redirect('/');
+    res.redirect('/contacto');
     // res.send("<script>alert('Mensaje Enviado')</script>");
 });
 
